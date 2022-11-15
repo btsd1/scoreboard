@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: navy
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+.btn_container button {
+    border-radius: 4px;
+    border: 1px gray;
+    padding: 2px;
+}
+
+#reset-btn {
+    margin-top: 8px;
+    color:red;
+    justify-self: center;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_container {
+}
+
+.score_box{
+    background-color: black;
+    min-height:85px;
+    min-width: 85px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.score_text{
+    color: red;
+    font-size: 30px  
+}
